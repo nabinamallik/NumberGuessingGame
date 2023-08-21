@@ -8,7 +8,7 @@ public class NumberGuessingGame {
         
         int targetNumber = random.nextInt(100) + 1;
         int guess;
-        int attemps = 0;
+        int attempts = 0;
         
         System.out.println("Welcome to the Number Guessing Game!");
         System.out.println("I'm thinking of a number between 1 and 100.");
